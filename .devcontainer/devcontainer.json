@@ -1,0 +1,11 @@
+{
+  "name": "Java & MySQL Database",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {
+      "databaseName": "practice_db",
+      "databaseUser": "student",
+      "databasePassword": "password123"
+    }
+  }
+}
